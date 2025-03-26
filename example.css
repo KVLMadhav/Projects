@@ -1,0 +1,68 @@
+
+
+        .box{
+            height:100px;
+            background-color: aqua;
+            position:relative;
+            animation-duration: 7s;
+            animation-direction: alternate;
+            animation-iteration-count: infinite;
+
+
+        }
+        @keyframes move-box{
+            0%{left:0;}
+            /**50%{left:200px;}**/
+            100%{left:0;}
+        }
+        /**h2{
+            color:yellow;
+            font-size: 100px;
+            border:5px 5px 5px;
+            box-shadow: 10px 10px 10px rgb(0,0,0,0.9);
+
+        }
+        a:hover{
+            color:aqua
+        }
+        a:visited{
+            color:red;
+        }
+        a:active{
+            color:black;
+        }
+        a:focus{
+            color:green;
+        }
+        .container ul li:nth-child(4n){
+            background-color: aqua;
+            font-size: 15px;
+
+        }
+        h1::before{
+            content: "❤️";
+            color:blue;
+        }
+        h1::after {
+            content: "❤️";
+            color:blue;
+        }
+
+        h2::selection{
+            
+            background-color:aqua;**/
+            
+        
+        div{
+            position: relative;
+            background-color: blueviolet;
+            padding:250px;
+            margin-left: 50px;
+            margin-right: 50px;
+            font-size: 25px;
+            font-weight: 500;
+        }
+
+        
+
+
